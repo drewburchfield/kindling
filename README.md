@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A writing and knowledge management system that blends [Zettelkasten](https://zettelkasten.de/overview/), [CODE](https://fortelabs.com/blog/the-4-levels-of-personal-knowledge-management/) (Capture, Organize, Distill, Express), and [PARA](https://fortelabs.com/blog/para/) (Projects, Areas, Resources, Archive) with [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) as the discipline layer.
+A writing and knowledge management system that blends Niklas Luhmann's [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), Tiago Forte's [CODE](https://fortelabs.com/blog/the-4-levels-of-personal-knowledge-management/) (Capture, Organize, Distill, Express) and [PARA](https://fortelabs.com/blog/para/) (Projects, Areas, Resources, Archive) with [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) as the discipline layer.
 
 The foundation is Zettelkasten's atomic philosophy: capture a three-word phrase, a single sentence, or a thousand-word rant. The system treats all of it as valid raw material. No structure required upfront, just get it out of your head. That flexibility is the core value.
 
