@@ -1,0 +1,97 @@
+# Claude Code Settings (contains personal paths and keys)
+.claude/settings.local.json
+.claude/settings.md
+.mcp.json
+
+# Obsidian (users create their own config when they open the vault)
+.obsidian/
+
+# Plugin caches
+.smart-env/
+
+# Internal development notes
+docs/history/
+
+# Agent workspace (personal content)
+10_Shelley/
+
+# Graph server config
+.obsidian-graph.conf
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+
+# Personal vault content (synced via iCloud, not git)
+# Each folder allows .gitkeep and README.md for scaffolding
+00_Inbox/*
+!00_Inbox/.gitkeep
+!00_Inbox/README.md
+
+01_Sources/*
+!01_Sources/.gitkeep
+!01_Sources/README.md
+!01_Sources/**/_SAMPLE*
+!01_Sources/**/README.md
+
+02_Permanent/*
+!02_Permanent/.gitkeep
+!02_Permanent/README.md
+
+03_MOCs/*
+!03_MOCs/.gitkeep
+!03_MOCs/README.md
+
+04_Projects/*
+!04_Projects/.gitkeep
+!04_Projects/README.md
+
+05_Life_Areas/*
+!05_Life_Areas/.gitkeep
+!05_Life_Areas/README.md
+
+06_Output/*
+!06_Output/.gitkeep
+!06_Output/README.md
+
+07_Archive/*
+!07_Archive/.gitkeep
+!07_Archive/README.md
+
+08_Attachments/*
+!08_Attachments/.gitkeep
+!08_Attachments/README.md
+
+09_Meta/Changelogs/*
+!09_Meta/Changelogs/_SAMPLE*
+
+AI_Extracted_Notes/*
+!AI_Extracted_Notes/.gitkeep
+!AI_Extracted_Notes/README.md

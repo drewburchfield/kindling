@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --version:*)",
+      "Bash(npm --version)",
+      "Read(//YOUR_VAULT_PATH_HERE/**)",
+      "Bash(curl:*)",
+      "Bash(timeout 5 node:*)",
+      "WebSearch",
+      "mcp__obsidian-graph__search_notes",
+      "mcp__obsidian-graph__get_similar_notes",
+      "mcp__obsidian-graph__get_connection_graph",
+      "mcp__obsidian-graph__get_hub_notes",
+      "mcp__obsidian-graph__get_orphaned_notes",
+      "mcp__obsidian__obsidian_list_files_in_dir",
+      "mcp__obsidian__obsidian_get_file_contents",
+      "mcp__obsidian__obsidian_simple_search",
+      "mcp__obsidian__obsidian_complex_search",
+      "mcp__obsidian__obsidian_append_content",
+      "mcp__obsidian__obsidian_patch_content",
+      "mcp__obsidian__obsidian_get_recent_changes",
+      "Bash(mkdir:*)",
+      "Bash(tree:*)",
+      "Bash(date:*)"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "enableAllProjectMcpServers": true
+}
