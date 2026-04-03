@@ -48,7 +48,7 @@ You are updating the vault changelog to track recent modifications to the knowle
 Run this command after:
 - `/find-connections` sessions (record what connections were discovered)
 - `/discover` sessions (record cross-domain patterns found)
-- `/inbox-processor-hybrid` sessions (record what was extracted and filed)
+- `/process-inbox` sessions (record what was extracted and filed)
 - Any session where notes were created or connected
 
 ## Output

@@ -714,7 +714,7 @@ Extract valuable insights from books and integrate into knowledge base.
 
 **Time**: 2-4 hours
 
-**Command to use**: `/inbox-processor-hybrid` handles extraction with built-in deduplication. AI-extracted insights go to `AI_Extracted_Notes/` for your review before promoting to `02_Permanent/`.
+**Command to use**: `/process-inbox` handles extraction with built-in deduplication. AI-extracted insights go to `AI_Extracted_Notes/` for your review before promoting to `02_Permanent/`.
 
 ### 4. Discover Connections (Integration)
 - **Run connection finding** on new permanent notes
@@ -756,12 +756,12 @@ Extract valuable insights from books and integrate into knowledge base.
 
 - **Minimal processing**: Steps 2-3 only = 3-6 hours
 - **Full integration**: All steps = 6-10 hours
-- **With commands**: `/inbox-processor-hybrid` + `/find-connections` reduce this significantly
+- **With commands**: `/process-inbox` + `/find-connections` reduce this significantly
 
 ## Tips
 
 - **Don't rush**: Process books thoroughly, one at a time
-- **Use the workflow chain**: `/inbox-processor-hybrid` -> `/find-connections` -> `/update-changelog`
+- **Use the workflow chain**: `/process-inbox` -> `/find-connections` -> `/update-changelog`
 - **Regular rhythm**: Process one book every 1-2 weeks
 - **Synthetic thinking**: Always ask "how does this connect to what I already know?"
 ```

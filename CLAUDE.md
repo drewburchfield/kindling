@@ -44,7 +44,7 @@ AI_Extracted_Notes/ # AI-generated content (clear provenance)
 
 | Your state of mind | Command | What it does |
 |---|---|---|
-| "I have stuff piling up" | `/inbox-processor-hybrid` | Triage inbox items one at a time, extract insights to staging |
+| "I have stuff piling up" | `/process-inbox` | Triage inbox items one at a time, extract insights to staging |
 | "I just added a note, what connects?" | `/find-connections <note>` | Map the conceptual network around a specific note |
 | "What patterns am I missing?" | `/discover` | Vault-wide cross-domain pattern hunting, no starting point needed |
 | "What do I already know about X?" | `/recall <topic>` | Semantic search, adapts depth to query complexity |
@@ -62,7 +62,7 @@ AI_Extracted_Notes/ # AI-generated content (clear provenance)
 
 **Processing new content:**
 ```
-/inbox-processor-hybrid -> human review -> /find-connections -> /update-changelog
+/process-inbox -> human review -> /find-connections -> /update-changelog
 ```
 
 **Periodic discovery:**

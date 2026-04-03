@@ -141,7 +141,7 @@ Found X notes with <3 connections:
 - Hub/orphan detection and integration
 - Run after adding new permanent notes
 
-**Inbox Processing** (`/inbox-processor-hybrid`):
+**Inbox Processing** (`/process-inbox`):
 - Triage and filing of inbox items
 - Insight extraction to AI_Extracted_Notes/
 - Deduplication against existing vault content

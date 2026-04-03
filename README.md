@@ -41,7 +41,7 @@ Test it:
 
 | Week | Focus | Commands |
 |---|---|---|
-| **1** | Capture. Dump thoughts, articles, notes into `00_Inbox/` | `/inbox-processor-hybrid` |
+| **1** | Capture. Dump thoughts, articles, notes into `00_Inbox/` | `/process-inbox` |
 | **2** | Connect. Run connection analysis on permanent notes | `/find-connections`, `/update-changelog` |
 | **3** | Discover. Look for cross-domain patterns | `/discover`, `/recall` |
 | **4** | Reflect. Establish your rhythm | `/daily-review`, `/weekly-synthesis` |
@@ -50,7 +50,7 @@ Test it:
 |---|---|---|
 | Throughout the day | Capture to `00_Inbox/` | Seconds |
 | Evening | `/daily-review` | 5 min |
-| Weekly | `/inbox-processor-hybrid` + `/weekly-synthesis` | 30 min |
+| Weekly | `/process-inbox` + `/weekly-synthesis` | 30 min |
 | Monthly | `/analyze-kb` + `/discover` | 1 hour |
 
 See [EXAMPLES.md](EXAMPLES.md) for full workflow walkthroughs.
@@ -59,7 +59,7 @@ See [EXAMPLES.md](EXAMPLES.md) for full workflow walkthroughs.
 
 | Your state of mind | Command | What it does |
 |---|---|---|
-| "I have stuff piling up" | `/inbox-processor-hybrid` | Triage items one at a time, extract insights to staging |
+| "I have stuff piling up" | `/process-inbox` | Triage items one at a time, extract insights to staging |
 | "I just added a note, what connects?" | `/find-connections <note>` | Map the conceptual network around a specific note |
 | "What patterns am I missing?" | `/discover` | Vault-wide cross-domain pattern hunting |
 | "What do I already know about X?" | `/recall <topic>` | Semantic search, adapts depth to query complexity |
@@ -76,7 +76,7 @@ Plus `/analyze-kb` for vault health reports.
 
 **Processing new content:**
 ```
-/inbox-processor-hybrid -> human review -> /find-connections -> /update-changelog
+/process-inbox -> human review -> /find-connections -> /update-changelog
 ```
 
 **Periodic discovery:**

@@ -1,11 +1,11 @@
 ---
-description: Triage inbox items one at a time with hybrid decision framework
+description: Triage inbox items one at a time, extract insights to staging
 allowed-tools: Read, Write, Edit, Glob, Grep, search_notes, get_similar_notes, mcp__MCP_DOCKER__get_transcript
 ---
 
-# Inbox Processor (Hybrid)
+# Process Inbox
 
-Process items in `00_Inbox/` using the hybrid decision framework.
+Process items in `00_Inbox/` one at a time.
 
 ## CRITICAL: Before Starting
 

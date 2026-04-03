@@ -5,7 +5,7 @@
 **Why this exists:** AI assists, human writes. AI can identify insights, but they need your voice and judgment before joining the permanent knowledge graph.
 
 **Workflow:**
-1. AI extracts insights here (via `/inbox-processor-hybrid` or direct extraction)
+1. AI extracts insights here (via `/process-inbox` or direct extraction)
 2. Notes are tagged with `#ai-extracted`
 3. You review: is this actually insightful? Is it already covered?
 4. Rewrite in your voice

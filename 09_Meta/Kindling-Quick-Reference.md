@@ -4,7 +4,7 @@
 
 | Your state of mind | Command | What it does |
 |---|---|---|
-| "I have stuff piling up" | `/inbox-processor-hybrid` | Triage inbox items, extract insights to staging |
+| "I have stuff piling up" | `/process-inbox` | Triage inbox items, extract insights to staging |
 | "I just added a note, what connects?" | `/find-connections <note>` | Map conceptual network around a note |
 | "What patterns am I missing?" | `/discover` | Vault-wide cross-domain pattern hunting |
 | "What do I already know about X?" | `/recall <topic>` | Semantic search, adapts depth to complexity |
@@ -22,7 +22,7 @@
 
 **Processing new content:**
 ```
-/inbox-processor-hybrid -> human review -> /find-connections -> /update-changelog
+/process-inbox -> human review -> /find-connections -> /update-changelog
 ```
 
 **Periodic discovery:**
@@ -82,5 +82,5 @@
 |---|---|---|
 | Throughout day | Capture to `00_Inbox/` | Seconds |
 | Evening | `/daily-review` | 5 min |
-| Weekly | `/inbox-processor-hybrid` + `/weekly-synthesis` | 30 min |
+| Weekly | `/process-inbox` + `/weekly-synthesis` | 30 min |
 | Monthly | `/analyze-kb` + `/discover` | 1 hour |
