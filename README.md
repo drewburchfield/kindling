@@ -37,6 +37,24 @@ Test it:
 /recall test
 ```
 
+## Getting Started
+
+| Week | Focus | Commands |
+|---|---|---|
+| **1** | Capture. Dump thoughts, articles, notes into `00_Inbox/` | `/inbox-processor-hybrid` |
+| **2** | Connect. Run connection analysis on permanent notes | `/find-connections`, `/update-changelog` |
+| **3** | Discover. Look for cross-domain patterns | `/discover`, `/recall` |
+| **4** | Reflect. Establish your rhythm | `/daily-review`, `/weekly-synthesis` |
+
+| When | What | Time |
+|---|---|---|
+| Throughout the day | Capture to `00_Inbox/` | Seconds |
+| Evening | `/daily-review` | 5 min |
+| Weekly | `/inbox-processor-hybrid` + `/weekly-synthesis` | 30 min |
+| Monthly | `/analyze-kb` + `/discover` | 1 hour |
+
+See [EXAMPLES.md](EXAMPLES.md) for full workflow walkthroughs.
+
 ## Commands
 
 | Your state of mind | Command | What it does |
@@ -149,24 +167,6 @@ The "wanting" (dopamine) system is separate from the "liking" (opioid) system.
 | **[obsidian](https://github.com/modelcontextprotocol/servers/tree/main/src/obsidian)** | Read/write files in your vault via Obsidian's REST API | Yes |
 | **[obsidian-graph](https://github.com/drewburchfield/obsidian-graph)** | Semantic search, connection graphs, hub/orphan detection (pgvector) | Yes |
 | **[Docker MCP gateway](https://docs.docker.com/desktop/features/gordon/mcp-catalog/)** | YouTube transcript pulling and other utilities | Optional |
-
-## Getting Started
-
-| Week | Focus | Commands |
-|---|---|---|
-| **1** | Capture. Dump thoughts, articles, notes into `00_Inbox/` | `/inbox-processor-hybrid` |
-| **2** | Connect. Run connection analysis on permanent notes | `/find-connections`, `/update-changelog` |
-| **3** | Discover. Look for cross-domain patterns | `/discover`, `/recall` |
-| **4** | Reflect. Establish your rhythm | `/daily-review`, `/weekly-synthesis` |
-
-| When | What | Time |
-|---|---|---|
-| Throughout the day | Capture to `00_Inbox/` | Seconds |
-| Evening | `/daily-review` | 5 min |
-| Weekly | `/inbox-processor-hybrid` + `/weekly-synthesis` | 30 min |
-| Monthly | `/analyze-kb` + `/discover` | 1 hour |
-
-See [EXAMPLES.md](EXAMPLES.md) for full workflow walkthroughs.
 
 ## License
 
