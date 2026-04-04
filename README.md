@@ -1,4 +1,4 @@
-[![kindling](https://ghrb.waren.build/banner?header=kindling+%21%5Bphoenixframework%5D&subheader=Turn+raw+thoughts+into+written+work&bg=1A1A1A-4A4A4A&color=FFFFFF&headerfont=Inter&subheaderfont=Inter&support=false)](https://github.com/drewburchfield/kindling)
+[![kindling](https://ghrb.waren.build/banner?header=kindling+%F0%9F%AA%B5&subheader=Turn+raw+thoughts+into+written+work&bg=1A1A1A-4A4A4A&color=FFFFFF&headerfont=Inter&subheaderfont=Inter&support=false)](https://github.com/drewburchfield/kindling)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
